@@ -1,0 +1,107 @@
+.head{         /* style for headings*/
+    height: 20%;
+    background-color: #191919;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+.nav{          /*style for navigation bar*/
+    height: 20%;
+    background-color: #191919;
+    color: #66fcf1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{       /*style for main content*/       
+    height: 80%;
+    color:white;
+    background-color: #191919;
+    font-size: x-large;
+display: flexbox;  
+}
+body{    /*background*/
+    background-color: #191919;
+}
+a{       /*style for links*/
+    font-size: medium;
+    color: #66fcf1;
+    text-decoration: none;
+}
+#hy{  /*hello*/
+    font-size: large;
+    margin-top: 10%;
+}
+#downloadbtn{     /*style for download resume*/
+     background-color: #191919;
+ color: #66fcf1;
+     border-radius: 5px;
+     font-size: large;
+     border: 2px solid #66fcf1;
+}
+#profile{    /*style for profile image*/
+    border: 5px solid #66fcf1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    right: auto;
+
+}
+a:hover{  /*style for interactive element-hover*/ 
+    color: rgb(217, 236, 12);
+}
+i{
+    margin-right: 10px;
+    
+}
+#project{  /*style for projects*/
+    border-radius: 5%;
+    border: 2px solid white;
+    padding: 3%;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.con{ /*style for contact information*/
+    display: flex;
+    align-content: center;
+}
+button{  /*style for contact information*/
+    height: 5%;
+    border-radius: 4px;
+    border: 2px solid white;
+    width: 73%;
+    margin: auto;
+   font-size: medium;
+   color: white;
+   background-color: black;
+   margin-top: 10%; 
+}
+.contact{ /*style for contact form*/
+    height: 350px;
+    width: 50%;
+background-color: white;
+margin: auto;
+color: black;
+border-radius: 4px;
+}
+@keyframes slidein {  /*style for text animation*/
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }  
+}
+#name{
+    animation: slidein 3s ease-out forwards;
+    
+}
+#message{
+    height: 100px;
+
+}
+input{
+    margin: auto;
+}
